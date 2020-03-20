@@ -19,9 +19,6 @@
     </div>
   </div>
 </template>
-
-
-
 <script>
 import ConfirmModal from 'ad-dialog'
 //  @Component
