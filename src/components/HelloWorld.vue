@@ -26,7 +26,7 @@ import ConfirmModal from 'ad-dialog'
 export default {
   data () {
     return {
-      isShow:false,
+      isShow: false,
       confirmModal: {
         // type: 'input',
         title: '请输入用户名',
@@ -43,7 +43,7 @@ export default {
         },
         isMarginTop: '35%'
       },
-      msg: 123
+      msg: 1234
     }
   },
   // 声明周期钩子
@@ -51,7 +51,7 @@ export default {
     // this.greet()
   },
   methods: {
-    modalShow(){
+    modalShow () {
       this.isShow = true
     },
     // submit
