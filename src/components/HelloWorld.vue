@@ -43,7 +43,7 @@ export default {
         },
         isMarginTop: '35%'
       },
-      msg: 12345678
+      msg: 1234999
     }
   },
   // 声明周期钩子
@@ -65,7 +65,7 @@ export default {
     },
     // cancel
     handleOnCancel (type, bool) {
-      console.log('?????', type, bool)
+      console.log('console', type, bool)
       this.isShow = false
     }
   },
