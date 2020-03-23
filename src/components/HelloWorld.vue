@@ -2,7 +2,7 @@
   <div>
     <input v-model="msg">
     <p>msg: {{ msg }}</p>
-    <p @click="modalShow">弹出框</p>
+    <p @click="modalShow">弹122121出框</p>
     <div v-if="isShow">
       <confirm-modal
         :type="confirmModal.type"
