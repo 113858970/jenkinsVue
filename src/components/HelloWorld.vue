@@ -43,7 +43,7 @@ export default {
         },
         isMarginTop: '35%'
       },
-      msg: 1234999
+      msg: 1234900
     }
   },
   // 声明周期钩子
